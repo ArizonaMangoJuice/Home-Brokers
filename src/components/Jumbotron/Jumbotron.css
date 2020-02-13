@@ -14,3 +14,10 @@
     width: 100%;
     position: relative;
 }
+
+.jumbotron-center{
+    position: absolute;
+    top: 47vh;
+    width: 100%;
+    color: white;
+}

@@ -6,7 +6,10 @@ export default class Jumbotron extends React.Component{
         return (
             <div className='jumbotron'>
                 <div className='opacity main-cover'>
-                    <h1 className='test'>hello</h1>
+                    <div className='jumbotron-center'>
+                        <h1>Logo</h1>
+                        <p>Choose the house that best fits your lifestyle</p>
+                    </div>
                 </div>
             </div>
         )
