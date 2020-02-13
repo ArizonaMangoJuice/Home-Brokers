@@ -3,13 +3,14 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header/Header';
 import Jumbotron from './components/Jumbotron/Jumbotron';
+import Me from './components/Me/Me';
 
 function App() {
   return (
     <div className="App">
       <Header />
       <Jumbotron />
-      <h1>jel;l</h1>
+      <Me />
     </div>  
   );
 }
