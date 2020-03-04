@@ -18,7 +18,8 @@
 
     min-width: 100%;
     min-height: 100%;
-    object-fit: fill;
+    object-fit: cover;
+    
 
     z-index: -1;
 }
@@ -40,5 +41,5 @@ h1{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
-    text-shadow: 0.05em 0.05em 0.05em rgba(0, 0, 0, 0.4);
+    text-shadow: 0.05em 0.05em 0.05em rgba(132, 94, 194, 0.4);
 }
