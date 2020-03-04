@@ -11,9 +11,9 @@ export default function Card(){
             <div className='middle'>
                 <div className='title'>
                     <p>
-                        Level 4
+                        Realtor
                     </p>
-                    <h2>The Barbarian</h2>
+                    <h2>Noraceli Vizcaino</h2>
                 </div>
                 <div className='info'>
                     <p>
