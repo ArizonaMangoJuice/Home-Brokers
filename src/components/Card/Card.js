@@ -17,8 +17,8 @@ export default function Card(){
                 </div>
                 <div className='info'>
                     <p>
-                        The Barbarian is a kilt-clad Scottish warrior with an angry, battle-ready expression, hungry for destruction. 
-                        He has Killer yellow horshoe mustache.
+                        Noraceli Vizcaino has been a licensed since 2014. She is part of Denver Metro Association of Realtors.
+                        Noraceli is fluent in English and Spanish.
                     </p>
                 </div>
             </div>
