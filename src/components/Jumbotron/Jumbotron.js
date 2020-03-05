@@ -10,7 +10,7 @@ export default function Jumbotron(){
             </video>
 
             <div className='video-overlay'>
-                <h1>Choose The House <br></br> That Best Fits Your Lifestyle</h1>
+                <h1>Choose The House <br></br> Of Your Dreams</h1>
             </div>
         </div>
     )
