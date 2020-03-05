@@ -16,9 +16,10 @@ export default function Header () {
                             V
                         </p>
                     </div>
-                    <div className='phone-container'>
+                    
+                </div>
+                <div className='phone-container'>
                         <a href='tel:303-350-6089'>303-350-6089</a>
-                    </div>
                 </div>
 
                 <div className='nav container borderXwidth'>

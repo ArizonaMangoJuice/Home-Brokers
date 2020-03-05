@@ -26,9 +26,9 @@
 .phone-container{
     position: absolute;
     /* border: 1px solid red; */
-    left: 110%;
-    top: 50%;
-    width: 100px;
+    left: 23.9%;
+    top: 28px;
+    width: 110px;
 }
 
 .phone-container a{
