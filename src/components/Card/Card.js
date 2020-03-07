@@ -3,7 +3,8 @@ import './Card.css'
 export default function Card(){
     return (
         <div className='card-container'>
-            <div className='top'>
+            <div className='top relative'>
+                <div className='glass cover-box'> </div>
                 <img 
                     className='card-picture' 
                     src={require('../../images/nora-cropped.jpg')} />
@@ -25,18 +26,18 @@ export default function Card(){
             <div className='bottom'>
                 <div className='social'>
                     <div className='button right-line border-bottom-left-radius' >
-                        <a>
-                            <p>20</p>    
+                        <a href='#'>
+                            <i class="fas fa-phone-square-alt"></i>
                         </a>   
                     </div>
                     <div className='button right-line'>
-                        <a>
-                            <p>16</p>    
+                        <a href='#'>
+                            <i class="fab fa-facebook-square"></i>
                         </a>   
                     </div>
                     <div className='button border-bottom-right-radius'>
-                        <a>
-                            <p>150</p>    
+                        <a href='#'>
+                            <i class="fas fa-map-marker-alt"></i>
                         </a>   
                     </div>
                 </div>
