@@ -31,3 +31,22 @@
 .name p{
     margin: 0 0 0 0;
 }
+
+.footer-nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-nav a {
+    color: white;
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 18px;
+    margin: 0 15px 0 15px;
+    letter-spacing: 5px;
+    vertical-align: bottom;
+}
+
+.default-number{
+    font-family: sans-serif !important;
+}
