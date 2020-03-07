@@ -46,7 +46,7 @@ export default class Links extends React.Component{
                     <div className='picture-box p1 relative'>
                         <div className={this.state.two ? 'dark' : ''}></div>
                         <img className={this.state.two ? 'picture scale' : 'picture'} src={require('../../images/home-interior.jpg')} />
-                        <p className='links-title'>Buyers</p>
+                        <p className='links-title'>Home Valuation</p>
                     </div>
                 </a>
                 <a onMouseEnter={() => this.darkScreen(3)} 
@@ -55,7 +55,7 @@ export default class Links extends React.Component{
                     <div className='picture-box p1 relative'>
                         <div className={this.state.three ? 'dark' : ''}></div>
                         <img className={this.state.three ? 'picture scale' : 'picture'} src={require('../../images/contract.jpg')} />
-                        <p className='links-title'>Home Valuation</p>
+                        <p className='links-title'>List With Us</p>
                     </div>
                 </a>
                 <a onMouseEnter={() => this.darkScreen(4)} 
