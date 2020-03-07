@@ -1,0 +1,33 @@
+.footer{
+    background-color: royalblue;
+    
+}
+
+.footer-logo{
+    position: initial;
+    width: initial;
+    
+    
+    /* border: 1px solid red; */
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+}
+
+.name{
+    margin: 15px;
+    color: white;
+    font-size: 35px;
+    font-size: Raleway;
+}
+
+.name p{
+    margin: 0 0 0 0;
+}

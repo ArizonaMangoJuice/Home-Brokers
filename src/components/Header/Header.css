@@ -5,6 +5,7 @@
     background-color: rgba(0, 0, 0, 0);
     position: fixed;
     top: 0;
+    z-index: 999;
 }
 
 .logo-container{
@@ -28,13 +29,14 @@
     /* border: 1px solid red; */
     left: 23.1%;
     top: 28px;
-    width: 110px;
+    width: 150px;
 }
 
 .phone-container a{
     text-decoration: none;
     color: #FFF;
     font-size: 16px;
+    margin-left: 35px;
 }
 
 .n{

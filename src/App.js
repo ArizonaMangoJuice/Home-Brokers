@@ -5,6 +5,7 @@ import Header from './components/Header/Header';
 import Jumbotron from './components/Jumbotron/Jumbotron';
 import Bio from './components/Bio/Bio';
 import Links from './components/Links/Links';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Jumbotron />
       <Bio />
       <Links />
+      <Footer />
     </div>  
   );
 }

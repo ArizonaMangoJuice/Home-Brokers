@@ -4,7 +4,7 @@ import Card from '../Card/Card'
 
 export default function Bio (){
     return(
-        <div className='mch'>
+        <div className='mch padding-top-bio'>
             <div className='bio-container relative '>
                 <Card/>
                 <div className='goal'>
