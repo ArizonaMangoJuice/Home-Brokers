@@ -4,6 +4,7 @@ import './App.css';
 import Header from './components/Header/Header';
 import Jumbotron from './components/Jumbotron/Jumbotron';
 import Bio from './components/Bio/Bio';
+import Links from './components/Links/Links';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Jumbotron />
       <Bio />
+      <Links />
     </div>  
   );
 }

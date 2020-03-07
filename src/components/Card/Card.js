@@ -27,17 +27,17 @@ export default function Card(){
                 <div className='social'>
                     <div className='button right-line border-bottom-left-radius' >
                         <a href='#'>
-                            <i class="fas fa-phone-square-alt"></i>
+                            <i className="fas fa-phone-square-alt"></i>
                         </a>   
                     </div>
                     <div className='button right-line'>
                         <a href='#'>
-                            <i class="fab fa-facebook-square"></i>
+                            <i className="fab fa-facebook-square"></i>
                         </a>   
                     </div>
                     <div className='button border-bottom-right-radius'>
                         <a href='#'>
-                            <i class="fas fa-map-marker-alt"></i>
+                            <i className="fas fa-map-marker-alt"></i>
                         </a>   
                     </div>
                 </div>
