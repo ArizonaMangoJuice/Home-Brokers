@@ -23,13 +23,15 @@
     width: 100%;
     height: 70vh;
     z-index: 99;
+    overflow: hidden;
+
 }
 
 .picture {
     height: 70vh;
     width: 100%;
     z-index: 1;
-
+    transition: transform .5s ease;
 }
 
 /* .picture:hover{
@@ -52,6 +54,11 @@
     background-color: rgba(0,0,0, 0.4);
     z-index: 2;
     transition: 0.2s;
+}
+
+.scale{
+    transform: scale(1.1);
+    transition: 02.s;
 }
 /* .p1{
     grid-column-start: 1;

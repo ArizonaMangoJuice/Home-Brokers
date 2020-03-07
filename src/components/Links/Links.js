@@ -36,7 +36,7 @@ export default class Links extends React.Component{
                     className='a-format' href='#'>                   
                     <div className='picture-box p1 relative'>
                         <div className={this.state.one ? 'dark' : ''}></div>
-                        <img className='picture' src={require('../../images/denver.jpg')} />
+                        <img className={this.state.one ? 'picture scale' : 'picture'} src={require('../../images/hugging.jpg')} />
                         <p className='links-title'>Buyers</p>
                     </div>
                 </a>
@@ -45,7 +45,7 @@ export default class Links extends React.Component{
                     className='a-format' href='#'>                   
                     <div className='picture-box p1 relative'>
                         <div className={this.state.two ? 'dark' : ''}></div>
-                        <img className='picture' src={require('../../images/denver.jpg')} />
+                        <img className={this.state.two ? 'picture scale' : 'picture'} src={require('../../images/home-interior.jpg')} />
                         <p className='links-title'>Buyers</p>
                     </div>
                 </a>
@@ -54,8 +54,8 @@ export default class Links extends React.Component{
                     className='a-format' href='#'>                   
                     <div className='picture-box p1 relative'>
                         <div className={this.state.three ? 'dark' : ''}></div>
-                        <img className='picture' src={require('../../images/denver.jpg')} />
-                        <p className='links-title'>Buyers</p>
+                        <img className={this.state.three ? 'picture scale' : 'picture'} src={require('../../images/contract.jpg')} />
+                        <p className='links-title'>Home Valuation</p>
                     </div>
                 </a>
                 <a onMouseEnter={() => this.darkScreen(4)} 
@@ -63,8 +63,8 @@ export default class Links extends React.Component{
                     className='a-format' href='#'>                   
                     <div className='picture-box p1 relative'>
                         <div className={this.state.four ? 'dark' : ''}></div>
-                        <img className='picture' src={require('../../images/denver.jpg')} />
-                        <p className='links-title'>Buyers</p>
+                        <img className={this.state.four ? 'picture scale' : 'picture'} src={require('../../images/family.jpg')} />
+                        <p className='links-title'>Sellers</p>
                     </div>
                 </a>
         </div>
