@@ -4,7 +4,7 @@ import './Footer.css'
 
 export default function Footer(){
     return (
-        <div className='mch footer '>
+        <div className=' footer '>
             <div className='relative footer-container'>
                 <div className='logo-container footer-logo'>
                         <div className='outer-box relative'>
@@ -42,6 +42,18 @@ export default function Footer(){
                         <a href='#'><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </nav>
+                <div className='main-links'>
+                        <a href='#'>Home</a>
+                        <a href='#'>About Noraceli</a>
+                        <a href='#'>Sellers</a>
+                        <a href='#'>Home Valuation</a>
+                        <a href='#'>Buyers</a>
+                        <a href='#'>List With Us</a>
+                        <a href='#'>Contact</a>
+                </div>
+                <div className='copyright'>
+                    <p>© 2020. QUIANA WATSON. All rights reserved. Sitemap | Real Estate Website Design by</p>
+                </div>
             </div>
         </div>
     )

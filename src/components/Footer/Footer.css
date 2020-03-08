@@ -17,7 +17,7 @@
     /* border: 1px solid red; */
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 50vh;
     width: 100%;
 }
 
@@ -47,6 +47,40 @@
     vertical-align: bottom;
 }
 
+.footer-nav a:hover{
+    color: #f2f2f293;
+}
+
+
 .default-number{
     font-family: sans-serif !important;
+}
+
+.main-links{
+    padding: 35px 0 0 0 ;
+}
+
+.main-links a{
+    color: white;
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 18px;
+    margin: 0 15px 0 15px;
+    letter-spacing: 5px;
+    vertical-align: bottom;
+}
+
+.main-links a:hover{
+    color: #f2f2f293;
+}
+
+.mch-sm{
+    min-height: 60vh;
+}
+
+.copyright{
+    padding: 15px 0 0 0 ;
+    color: white;
+    font-size: 18px;
+    font-family: Raleway;
 }
