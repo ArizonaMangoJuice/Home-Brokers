@@ -7,6 +7,10 @@ import Bio from './components/Bio/Bio';
 import Links from './components/Links/Links';
 import Footer from './components/Footer/Footer';
 
+import {
+  Route,
+} from 'react-router-dom'
+
 function App() {
   return (
     <div className="App">
