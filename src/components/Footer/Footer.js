@@ -52,7 +52,7 @@ export default function Footer(){
                         <a href='#'>Contact</a>
                 </div>
                 <div className='copyright'>
-                    <p>© 2020. QUIANA WATSON. All rights reserved. Sitemap | Real Estate Website Design by</p>
+                    <p>© 2020. Noraceli Vizcaino. All rights reserved. Sitemap | Real Estate Website Design by <a href='https://github.com/ArizonaMangoJuice'>AMJ</a></p>
                 </div>
             </div>
         </div>

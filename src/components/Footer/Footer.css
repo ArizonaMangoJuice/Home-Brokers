@@ -84,3 +84,12 @@
     font-size: 18px;
     font-family: Raleway;
 }
+
+.copyright a{
+    color: white;
+    font-weight: bold;
+}
+
+.copyright a:hover{
+    color: #f2f2f293;
+}
