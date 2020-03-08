@@ -15,9 +15,11 @@ export default function BuyerJumbo(){
                 
                 <div className='container-b-info'>
                     <nav className='buyer-links'>
-                        <Link to='/'>
-                            <p className='no-margin'>Home</p>
+                        <Link className='back-page' to='/'>
+                            <span className='no-margin'>Home</span>
                         </Link>
+                        <i className="current-page fas fa-angle-double-right"></i>
+                        <span className='current-page'>Buyers</span>
                     </nav>
                 </div>
             </div>
