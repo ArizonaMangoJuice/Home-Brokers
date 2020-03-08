@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import './Links.css'
 
 export default class Links extends React.Component{
@@ -31,15 +32,16 @@ export default class Links extends React.Component{
     render(){
         return (
             <div className='links mch'>
-                <a onMouseEnter={() => this.darkScreen(1)} 
+                <Link onMouseEnter={() => this.darkScreen(1)} 
                     onMouseLeave={() => this.removeScreen()} 
+                    to='/buyers'
                     className='a-format' href='#'>                   
                     <div className='picture-box p1 relative'>
                         <div className={this.state.one ? 'dark' : ''}></div>
                         <img className={this.state.one ? 'picture scale' : 'picture'} src={require('../../images/hugging.jpg')} />
                         <p className='links-title'>Buyers</p>
                     </div>
-                </a>
+                </Link>
                 <a onMouseEnter={() => this.darkScreen(2)} 
                     onMouseLeave={() => this.removeScreen()} 
                     className='a-format' href='#'>                   

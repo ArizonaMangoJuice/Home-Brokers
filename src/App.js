@@ -10,14 +10,19 @@ import Footer from './components/Footer/Footer';
 import {
   Route,
 } from 'react-router-dom'
+import Buyers from './components/Buyers/Buyers';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Jumbotron />
-      <Bio />
-      <Links />
+      <Route exact path='/' component={Jumbotron}/>
+      <Route exact path='/' component={Bio}/>
+      <Route exact path='/' component={Links}/>
+      {/* <Route exact path='/' component={Footer}/> */}
+      <Route exact path='/buyers' component={Buyers}/>
+
+
       <Footer />
     </div>  
   );

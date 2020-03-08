@@ -1,0 +1,50 @@
+.mch-md{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    background-image: url('../../images/Buyers.jpg');
+}
+
+
+.container-b-info{
+    width: 50%;
+    border: 1px solid red;
+    margin: 0 auto 0 auto;
+    padding: 50px 0 0 0 ;
+}
+
+.title-page{
+    font-size: 110px;
+    letter-spacing: 5px;
+}
+
+.for-buyers-1{
+    background-image: url('../../images/buyer-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.for-buyers-color{
+    background-color: #4169e1;
+}
+
+.dark-blue-glass{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(65, 105, 225, 0.7);
+    /* border: 1px solid red; */
+    /* z-index: 1; */
+}
+
+.no-margin{
+    margin: 0;
+}
+
