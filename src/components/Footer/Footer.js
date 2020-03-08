@@ -20,26 +20,26 @@ export default function Footer(){
                 </div>
                 <div className='name'>
                     <p>
-                        Nora Vizcaino
+                        Noraceli Vizcaino
                     </p>
                 </div>
                 <nav className='footer-nav'>
                     <div className='number'>
                         <a className='footer-links default-number' href='tel:303-350-6089'>
-                            <i class="fas fa-phone-square-alt "></i>  
+                            <i className="fas fa-phone-square-alt "></i>  
                             303-350-6089
                         </a>
                     </div>
                     <div className='email'>
                         <a className='footer-links' href='mailto:hello@nv.com'>
-                            <i class="fas fa-envelope"></i>    
+                            <i className="fas fa-envelope"></i>    
                             NoraVizcaino@nv.com
                         </a>
                     </div>
                     <div className='social'>
-                        <a href='#'><i class="fab fa-facebook-f"></i></a>
-                        <a href='#'><i class="fas fa-calendar-alt"></i></a>
-                        <a href='#'><i class="fab fa-linkedin-in"></i></a>
+                        <a href='#'><i className="fab fa-facebook-f"></i></a>
+                        <a href='#'><i className="fas fa-calendar-alt"></i></a>
+                        <a href='#'><i className="fab fa-linkedin-in"></i></a>
                     </div>
                 </nav>
                 <div className='main-links'>
