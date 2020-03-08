@@ -35,6 +35,7 @@ export default function Footer(){
                             <i className="fas fa-envelope"></i>    
                             NoraVizcaino@nv.com
                         </a>
+                        
                     </div>
                     <div className='social'>
                         <a href='#'><i className="fab fa-facebook-f"></i></a>
