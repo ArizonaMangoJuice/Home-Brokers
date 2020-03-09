@@ -23,7 +23,7 @@ export default function BuyerJumbo(){
                     </nav>
                     <div className='title-and-info readable-color'>
                         <div className='page-info-container'>
-                            <p className='page-info-title'>BUYERS</p>
+                            <p className='page-info-title relative'>BUYERS</p>
                             <p className='page-info-long-title'>HIGH-QUALITY BUYER SERVICES</p>
                             <p className='page-info-block'>“MY COMPREHENSIVE, HIGH-QUALITY SERVICES CAN SAVE YOU TIME AND MONEY, AS WELL AS MAKE THE EXPERIENCE MORE ENJOYABLE AND LESS STRESSFUL.”</p>
                         </div>
