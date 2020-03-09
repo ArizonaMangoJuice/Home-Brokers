@@ -2,16 +2,31 @@
     max-width: 900px;
     /* border: 1px solid red; */
     margin: 0px auto 0px auto;
-    background-color: #f2f2f2;
+    /* background-color: rgba(0, 0, 0, 0.7); */
+    background-color: white;
+    color: black;
+    /* color: white; */
     padding: 25px;
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 10px;
+    height: 430px;
+    box-shadow: -1px 15px 30px -12px black;
+    border-radius: 5px;
+
+    
 }
 
 .padding-top-bio{
-    padding-top: 255px;
+    /* padding-top: 255px; */
     /* background-color: royalblue; */
+    background-image: url('../../images/denver\ skyline.jpg');
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .mch{

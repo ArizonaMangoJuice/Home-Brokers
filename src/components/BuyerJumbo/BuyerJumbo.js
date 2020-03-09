@@ -35,7 +35,7 @@ export default function BuyerJumbo(){
                 </div>
             </div>
             <div className='mch for-buyers-color relative'>
-
+                
             </div>
         </div>
     </div>
