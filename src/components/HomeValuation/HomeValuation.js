@@ -14,7 +14,14 @@ export default class HomeValuation extends React.Component{
 
     render(){
         return (
-            <div>hello</div>
+            <div>
+                <div>
+                    <div className='mch-md relative home-val-img'>
+
+                        <h1 className='title-page'>Home Valuation</h1>
+                    </div>                    
+                </div>
+            </div>
         )
     }
 }

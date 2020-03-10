@@ -7,7 +7,7 @@ import ImageLink from '../ImageLink/ImageLink'
 export default function BuyerJumbo(){
     return (
     <div>
-        <div className='mch-md'>
+        <div className='mch-md buyer-img'>
             <h1 className='title-page'>Buyers</h1>
         </div>
         <div className='grid-container'>

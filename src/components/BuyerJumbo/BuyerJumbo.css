@@ -6,6 +6,9 @@
     justify-content: center;
     align-items: center;
     /* border: 1px solid red; */
+}
+
+.buyer-img{
     background-image: url('../../images/Buyers.jpg');
 }
 
