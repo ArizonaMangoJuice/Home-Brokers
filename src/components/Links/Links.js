@@ -52,24 +52,26 @@ export default class Links extends React.Component{
                         <p className='links-title'>Home Valuation</p>
                     </div>
                 </Link>
-                <a onMouseEnter={() => this.darkScreen(3)} 
+                <Link onMouseEnter={() => this.darkScreen(3)} 
                     onMouseLeave={() => this.removeScreen()} 
+                    to='/homeValuation'
                     className='a-format' href='#'>                   
                     <div className='picture-box p1 relative'>
                         <div className={this.state.three ? 'dark' : ''}></div>
                         <img className={this.state.three ? 'picture scale' : 'picture'} src={require('../../images/contract.jpg')} />
                         <p className='links-title'>List With Us</p>
                     </div>
-                </a>
-                <a onMouseEnter={() => this.darkScreen(4)} 
+                </Link>
+                <Link onMouseEnter={() => this.darkScreen(4)} 
                     onMouseLeave={() => this.removeScreen()}
+                    to='/sellers'
                     className='a-format' href='#'>                   
                     <div className='picture-box p1 relative'>
                         <div className={this.state.four ? 'dark' : ''}></div>
                         <img className={this.state.four ? 'picture scale' : 'picture'} src={require('../../images/family.jpg')} />
                         <p className='links-title'>Sellers</p>
                     </div>
-                </a>
+                </Link>
         </div>
         )
     }
