@@ -1,3 +1,49 @@
 .home-val-img{
+    background-image: url('../../images/buyer-1.jpg');
     
+}
+
+.mch-md-img{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .title-page::after{
+    content:"";
+    display: block;
+    position: absolute;
+    right: 75px;
+    top: 47%;
+    
+    height: 2px;
+    width: 68px;
+    background: #fff;
+    opacity: .5;
+    margin-left: 15px;
+} */
+
+.raised{
+    z-index: 1;
+}
+
+.title-and-info-sm{
+    display: grid;
+    grid-template-columns: 4fr 1fr 0;
+    padding: 25px;
+    /* border: 1px solid red; */
+    margin: auto;
+    color: white;
+    font-size: 18px;
+    grid-gap: 25px;
+}
+
+.container-b-info-md{
+    position: relative;
+    max-width: 900px !important;
+    margin: 0 auto 0 auto;
+    padding: 50px 0 0 0;
+    z-index: 1;
+}
+
+.max-nine{
 }
