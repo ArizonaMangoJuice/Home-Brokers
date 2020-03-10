@@ -10,7 +10,10 @@ import Footer from './components/Footer/Footer';
 import {
   Route,
 } from 'react-router-dom'
+
 import Buyers from './components/Buyers/Buyers';
+import HomeValuation from './components/HomeValuation/HomeValuation'
+
 
 function App() {
   return (
@@ -21,6 +24,8 @@ function App() {
       <Route exact path='/' component={Links}/>
       {/* <Route exact path='/' component={Footer}/> */}
       <Route exact path='/buyers' component={Buyers}/>
+      <Route exact path='/homeValuation' component={HomeValuation}/>
+
 
 
       <Footer />
