@@ -53,32 +53,3 @@
 }
 
 /* move to own component */
-.fancy-link{
-    border: 1px solid red;
-    margin-top: 15px;
-    height: 35px;
-    /* width: auto; */
-}
-
-.fancy-background:hover{
-    width: auto;
-    transition: ease-in 0.2s;
-}
-
-.fancy-background{
-    position: absolute;
-    left: 0;
-    width: 95px;
-    height: 100%;
-    z-index: 1;
-    background-color: royalblue;
-}
-
-.fancy-link-settings{
-    padding: 5px;
-    text-decoration: none;
-    color: white;
-    /* width: 250px; */
-    display: block;
-    z-index: 2;
-}

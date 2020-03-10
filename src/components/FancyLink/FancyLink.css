@@ -1,0 +1,40 @@
+.fancy-link{
+    /* border: 1px solid red; */
+    margin-top: 15px;
+    height: 35px;
+    /* width: auto; */
+}
+
+.fancy-background-length{
+    width: 235px;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    background-color: royalblue;
+    transition: ease-in 0.2s;
+    z-index: -1;
+
+}
+
+.fancy-background{
+    position: absolute;
+    left: 0;
+    width: 95px;
+    height: 100%;
+    background-color: royalblue;
+    z-index: -1;
+}
+
+.fancy-link-settings{
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    /* width: 250px; */
+    display: block;
+    z-index: 2;
+    /* width: 230px; */
+}
+
+.long-link{
+    width: 490px;
+}
