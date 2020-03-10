@@ -38,9 +38,20 @@ export default class HomeValuation extends React.Component{
                                 <div className='container-b-info-md' >
                                         <div className='title-and-info-sm '>
                                             <div className='page-info-container'>
-                                                <p className='page-info-block'>I know that selling your home is a major life event, and in today’s market, is a multifaceted effort. That’s why I make it easy for my clients to count on me to manage the entire process for them. My unparalleled marketing strategies will maximize exposure and help you sell your home for the highest possible price in the shortest amount of time. I am dedicated to providing you great service and the least amount of stress.</p>
-                                                <p className='page-info-block'>An automatic home valuation tool uses proprietary and public sales data, along with market trends to provide you with an estimate of what your home may be worth today. Click the link below. In order to fully asses your property value I will need to schedule a custom marketing appointment.</p>
-                                                <p className='page-info-block'>Click the button for a home valuation:</p>
+                                                <p className='page-info-block nolm'>I know that selling your home is a major life event, and in today’s market, is a multifaceted effort. That’s why I make it easy for my clients to count on me to manage the entire process for them. My unparalleled marketing strategies will maximize exposure and help you sell your home for the highest possible price in the shortest amount of time. I am dedicated to providing you great service and the least amount of stress.</p>
+                                                <p className='page-info-block nolm'>An automatic home valuation tool uses proprietary and public sales data, along with market trends to provide you with an estimate of what your home may be worth today. Click the link below. In order to fully asses your property value I will need to schedule a custom marketing appointment.</p>
+                                                <p className='page-info-block nolm'>Click the button for a home valuation:</p>
+                                                <div className='fancy-link relative'>
+                                                    <div className='fancy-background'></div>
+                                                    <Link className='fancy-link-settings' to='/'>
+                                                         WHAT’S MY HOME WORTH?
+                                                    </Link>
+                                                </div>
+                                                <div className='fancy-link relative'>
+                                                    <Link className='fancy-link-settings' to='/'>
+                                                         GET UP TO DATE MARKET INFORMATION FOR YOUR HOME
+                                                    </Link>
+                                                </div>
                                             </div>
                                             <div className='page-info-long-info'>
                                                 <SmallImageLink title="FINANCIAL OBLIGATIONS" imgLink='hugging.jpg'/>
