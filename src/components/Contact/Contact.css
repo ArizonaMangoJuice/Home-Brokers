@@ -28,6 +28,10 @@
     margin-bottom: 10px;
 }
 
+.contact-formatting:focus{
+    border: 2px solid royalblue;
+}
+
 .error{
     background-color: red;
     color: white;
