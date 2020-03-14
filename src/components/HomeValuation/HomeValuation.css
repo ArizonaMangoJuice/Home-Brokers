@@ -55,6 +55,12 @@
 /* move to own component */
 
 @media screen and (max-width: 768px) {
+    .long-title-phone{
+        font-size: 56px;
+    }
+}
+
+@media screen and (max-width: 767px) {
     .bio-container{
         height: auto;
         padding: 25px;
