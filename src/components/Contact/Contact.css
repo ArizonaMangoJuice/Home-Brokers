@@ -1,0 +1,19 @@
+.contact-title{
+    font-size: 18px;
+}
+
+.contact-name{
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.contact-us-link{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 5px 0 5px 0;
+}
+
+.contact-padding{
+    padding-right: 5px ;
+}

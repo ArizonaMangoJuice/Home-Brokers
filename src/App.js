@@ -15,6 +15,7 @@ import Buyers from './components/Buyers/Buyers';
 import HomeValuation from './components/HomeValuation/HomeValuation'
 import ListWithUs from './components/ListWithUs/ListWithUs'
 import Seller from './components/Sellers/Seller'
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -28,7 +29,7 @@ function App() {
       <Route exact path='/homeValuation' component={HomeValuation}/>
       <Route exact path='/listWithUs' component={ListWithUs}/>
       <Route exact path='/seller' component={Seller}/>
-      <Route exact path='/contact' component={Seller}/>
+      <Route exact path='/contact' component={Contact}/>
 
 
 
