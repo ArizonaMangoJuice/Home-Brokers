@@ -187,6 +187,10 @@
 
 
 @media screen and (max-width: 767px) {
+    .buyer-links {
+        padding: 0 0 10px 0;
+    }
+
     .title-page{
         font-size: 56px;
     }
@@ -224,6 +228,14 @@
         color: white;
         font-size: 18px;
         /* grid-gap: 25px; */
+    }
+
+    .container-b-info-md {
+        position: relative;
+        max-width: 900px !important;
+        margin: 0 auto 0 auto;
+        padding: 0px 0 0 0;
+        z-index: 1;
     }
 
     .page-info-title {

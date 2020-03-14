@@ -9,3 +9,27 @@
 .seller-quote{
     margin-top: -8px;
 }
+
+@media screen and (max-width: 768px) {
+    .seller-title {
+        font-size: 34px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .seller-quote{
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .ipad-margin{
+        margin-left: 27px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .seller-title {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+}
