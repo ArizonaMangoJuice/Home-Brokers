@@ -127,3 +127,9 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after
     opacity: 1;
     width: 100%;
 }
+
+
+.logo-link{
+    color: white;
+    text-decoration: none;
+}
