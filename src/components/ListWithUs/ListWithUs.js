@@ -43,10 +43,10 @@ export default class ListWithUs extends React.Component{
                                                 <ContactForm />
                                             </div>
                                             <div className='page-info-long-info'>
-                                                <SmallImageLink title="Buyers" imgLink='Buyers.jpg'/>
-                                                <SmallImageLink title="Home Valuation" imgLink='home-interior.jpg'/>
-                                                <SmallImageLink title="LIST WITH US" imgLink='contract.jpg'/>
-                                                <SmallImageLink title="SELLERS" imgLink='family.jpg'/>
+                                                <SmallImageLink title="Buyers" imgLink='Buyers.jpg' to='/buyers'/>
+                                                <SmallImageLink title="Home Valuation" imgLink='home-interior.jpg' to='/homeValuation'/>
+                                                <SmallImageLink title="List With Us" imgLink='contract.jpg' to='/listWithUs'/>
+                                                <SmallImageLink title="Sellers" imgLink='family.jpg' to='/seller'/>
                                             </div>
                                         </div>
                                 </div>
