@@ -47,10 +47,10 @@ export default class HomeValuation extends React.Component{
                                                 
                                             </div>
                                             <div className='page-info-long-info'>
-                                                <SmallImageLink title="BUYERS" imgLink='Buyers.jpg'/>
-                                                <SmallImageLink title="HOME VALUATION" imgLink='home-interior.jpg'/>
-                                                <SmallImageLink title="LIST WITH US" imgLink='contract.jpg'/>
-                                                <SmallImageLink title="SELLERS" imgLink='family.jpg'/>
+                                                <SmallImageLink title="Buyers" imgLink='Buyers.jpg' to='/buyers'/>
+                                                <SmallImageLink title="Home Valuation" imgLink='home-interior.jpg' to='/homeValuation'/>
+                                                <SmallImageLink title="List With Us" imgLink='contract.jpg' to='/listWithUs'/>
+                                                <SmallImageLink title="Sellers" imgLink='family.jpg' to='/seller'/>
                                             </div>
                                         </div>
                                 </div>
