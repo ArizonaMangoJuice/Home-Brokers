@@ -53,3 +53,37 @@
 }
 
 /* move to own component */
+
+@media screen and (max-width: 768px) {
+    .bio-container{
+        height: auto;
+        padding: 25px;
+    }
+
+    .long-title-phone{
+        font-size: 32px;
+    }
+
+    .title-and-info-sm {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* grid-template-columns: 4fr 1fr 0; */
+        padding: 25px;
+        /* border: 1px solid red; */
+        margin: auto;
+        color: white;
+        font-size: 18px;
+        /* grid-gap: 25px; */
+    }
+
+    .fancy-link {
+        /* border: 1px solid red; */
+        margin-top: 15px;
+        margin-bottom: 15px;
+        height: 35px;
+        font-size: 14px;
+        /* width: auto; */
+    }
+}

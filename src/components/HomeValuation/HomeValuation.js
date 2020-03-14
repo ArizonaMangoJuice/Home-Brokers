@@ -19,7 +19,7 @@ export default class HomeValuation extends React.Component{
                 <div>
                     <div className='mch-md relative home-val-img mch-md-img'>
                         <div className='dark-blue-glass'></div>
-                        <h1 className='title-page raised'>Home Valuation</h1>
+                        <h1 className='title-page raised long-title-phone'>Home Valuation</h1>
                     </div>                    
                 </div>
 
@@ -43,7 +43,7 @@ export default class HomeValuation extends React.Component{
                                                 <p className='page-info-block nolm'>An automatic home valuation tool uses proprietary and public sales data, along with market trends to provide you with an estimate of what your home may be worth today. Click the link below. In order to fully asses your property value I will need to schedule a custom marketing appointment.</p>
                                                 <p className='page-info-block nolm'>Click the button for a home valuation:</p>
                                                 <FancyLink text='WHAT’S MY HOME WORTH?'/>
-                                                <FancyLink text='GET UP TO DATE MARKET INFORMATION FOR YOUR HOME'/>
+                                                <FancyLink text='GET MARKET INFORMATION FOR YOUR HOME'/>
                                                 
                                             </div>
                                             <div className='page-info-long-info'>
