@@ -43,3 +43,15 @@ h1{
     color: #fff;
     text-shadow: 0.05em 0.05em 0.05em rgba(132, 94, 194, 0.4);
 }
+
+@media screen and (max-width: 1024px) {
+    .video-background{
+        grid-area: var(--fullGrid);
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+    }
+
+    
+}

@@ -79,3 +79,50 @@
     grid-column-start: 1;
     grid-column-end: 2;
 } */
+
+@media screen and (max-width: 1024px) {
+    .links{
+        display: flex;
+        flex-direction: row;
+        flex-flow: wrap;
+        font-family: Raleway;
+        min-height: auto !important;
+        /* padding: 150px 0 150px 0; */
+        background-color: rgba(65, 105, 225, 0.7);
+    }
+
+    .picture {
+        height: auto;
+        width: 100%;
+        z-index: 1;
+        transition: transform .5s ease;
+    }
+
+    .links-title {
+        color: white;
+        position: absolute;
+        top: 35%;
+        font-size: 30px;
+        width: 100%;
+        text-align: center;
+        z-index: 3;
+    }
+
+    .picture-box {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: auto;
+        /* z-index: 99; */
+        overflow: hidden;
+    }
+
+    .a-format {
+        margin: 0;
+        padding: 0;
+        width: 50%;
+        border: 0;
+        /* border: 1px solid red; */
+        height: auto;
+    }
+}

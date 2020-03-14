@@ -45,3 +45,18 @@
     font-size: 18px;
     padding: 15px;
 }
+
+@media screen and (max-width: 1024px) {
+    .padding-top-bio{
+        background-image: url('../../images/denver\ skyline.jpg');
+        background-position: bottom;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+
+
+    
+}

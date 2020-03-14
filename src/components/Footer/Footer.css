@@ -93,3 +93,23 @@
 .copyright a:hover{
     color: #f2f2f293;
 }
+
+
+@media screen and (max-width: 1024px) {
+    .main-links {
+        padding: 35px 0 0 0;
+        width: 80%;
+        margin: 0 auto 0 auto;
+        text-align: center;
+    }
+    .main-links a {
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        font-family: Raleway;
+        font-size: 18px;
+        margin: 10px 15px 10px 15px;
+        letter-spacing: 5px;
+        vertical-align: bottom;
+    }
+}
