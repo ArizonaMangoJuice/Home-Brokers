@@ -122,3 +122,23 @@
 .right-line{
     border-right: 1px solid #fff;
 }
+
+@media screen and (max-width: 768px) {
+    .card-container {
+        width: 260px;
+        /* border: 1px solid red; */
+        border-radius: 15px;
+        box-shadow: -1px 15px 30px -12px black;
+        height: 420px;
+        /* border: 1px solid red; */
+        background-color: white;
+        margin: auto;
+    }
+    
+    .goal {
+        grid-row-start: 2;
+        grid-column-end: 1;
+        font-size: 18px;
+        padding: 15px;
+    }
+}

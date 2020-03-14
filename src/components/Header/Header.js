@@ -34,8 +34,22 @@ export default function Header () {
                     <Link to='/about'>
                         About
                     </Link>
-                     
                 </div>
+
+                <nav className='phone-nav'>
+                    <div className='burger'>
+                        <div className='burger-line'></div>
+                        <div className='burger-line'></div>
+                        <div className='burger-line'></div>
+                    </div>
+                    <div className='phone-phone'>
+                        <a className="phone-header-link" href="tel:303-350-6089"><i class="fas fa-phone-square-alt "></i></a>
+                    </div>
+                    <div className='phone-email'>
+                        <a class="phone-email-link" href="mailto:hello@nv.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </nav>
+
             </div>
         </div>
     )

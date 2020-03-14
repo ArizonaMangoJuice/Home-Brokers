@@ -126,3 +126,23 @@
         height: auto;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .links{
+        display: flex;
+        flex-direction: column;
+        font-family: Raleway;
+        /* min-height: auto !important; */
+        /* padding: 150px 0 150px 0; */
+        background-color: rgba(65, 105, 225, 0.7);
+    }
+
+    .a-format {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        border: 0;
+        /* border: 1px solid red; */
+        height: auto;
+    }
+}

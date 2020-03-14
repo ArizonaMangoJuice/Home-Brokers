@@ -113,3 +113,22 @@
         vertical-align: bottom;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .footer-container{
+        height: auto;
+    }
+    .footer-nav {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-nav div{
+        margin: 10px 0 10px 0;
+    }
+    .copyright{
+        text-align: center;
+    }
+}

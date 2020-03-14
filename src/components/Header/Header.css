@@ -135,3 +135,93 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after
     color: white;
     text-decoration: none;
 }
+
+.phone-nav{
+    display: none;
+}
+
+.burger{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.burger-line{
+    width: 20px;
+    margin: 2px;
+    border: 2px solid white;
+}
+
+.phone-header-link{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+.phone-email-link{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .header-container{
+        height: auto;
+        width: 100%;
+        /* border: 1px solid red; */
+        /* background-color: rgba(0, 0, 0, 0); */
+        background-color: royalblue;
+        padding: 10px 0 10px 0;
+        position: fixed;
+        top: 0;
+        z-index: 999;
+    }
+
+    .outer-box {
+        border: 2px solid white;
+        height: 50px;
+        width: 50px;
+        margin-top: 10px;
+        font-size: 20px;
+        display: inline-block;
+    }
+
+    .logo-container {
+        font-family: sans-serif;
+        display: block;
+        position: initial;
+        width: 50px;
+        margin: auto;
+        /* left: 20% */
+        color: white;
+        /* border: 1px solid red; */
+    }
+
+    .phone-container {
+        /* position: absolute; */
+        position: initial;
+        display: none;
+        /* border: 1px solid red; */
+        left: 23.1%;
+        top: 28px;
+        width: 150px;
+    }
+
+    .nav {
+        display: block;
+        position: initial;
+        /* right: 20%; */
+        display: none;
+    }
+
+    .phone-nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    
+}
