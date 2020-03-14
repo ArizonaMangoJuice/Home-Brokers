@@ -33,7 +33,7 @@ export default class HomeValuation extends React.Component{
                                     <span className='no-margin'>Home</span>
                                 </Link>
                                 <i className="current-page fas fa-angle-double-right"></i>
-                                <span className='current-page'>Buyers</span>
+                                <span className='current-page'>Home Valuation</span>
                             </nav>
                             <div className='mch relative'>
                                 <div className='container-b-info-md' >
@@ -47,9 +47,10 @@ export default class HomeValuation extends React.Component{
                                                 
                                             </div>
                                             <div className='page-info-long-info'>
-                                                <SmallImageLink title="FINANCIAL OBLIGATIONS" imgLink='hugging.jpg'/>
-                                                <SmallImageLink title="A ROAD MAP OF THE ENTIRE PROCESS" imgLink='denver.jpg'/>
-                                                <SmallImageLink title="WHY YOU SHOULD HIRE A REAL ESTATE PROFESSIONAL" imgLink='family.jpg'/>
+                                                <SmallImageLink title="BUYERS" imgLink='Buyers.jpg'/>
+                                                <SmallImageLink title="HOME VALUATION" imgLink='home-interior.jpg'/>
+                                                <SmallImageLink title="LIST WITH US" imgLink='contract.jpg'/>
+                                                <SmallImageLink title="SELLERS" imgLink='family.jpg'/>
                                             </div>
                                         </div>
                                 </div>

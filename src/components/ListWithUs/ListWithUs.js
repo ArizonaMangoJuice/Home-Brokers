@@ -43,9 +43,10 @@ export default class ListWithUs extends React.Component{
                                                 <Contact />
                                             </div>
                                             <div className='page-info-long-info'>
-                                                <SmallImageLink title="FINANCIAL OBLIGATIONS" imgLink='hugging.jpg'/>
-                                                <SmallImageLink title="A ROAD MAP OF THE ENTIRE PROCESS" imgLink='denver.jpg'/>
-                                                <SmallImageLink title="WHY YOU SHOULD HIRE A REAL ESTATE PROFESSIONAL" imgLink='family.jpg'/>
+                                                <SmallImageLink title="Buyers" imgLink='Buyers.jpg'/>
+                                                <SmallImageLink title="Home Valuation" imgLink='home-interior.jpg'/>
+                                                <SmallImageLink title="LIST WITH US" imgLink='contract.jpg'/>
+                                                <SmallImageLink title="SELLERS" imgLink='family.jpg'/>
                                             </div>
                                         </div>
                                 </div>
