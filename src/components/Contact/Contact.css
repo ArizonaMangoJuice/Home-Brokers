@@ -1,0 +1,41 @@
+.contact-form{
+    margin-top: 15px;
+    /* border: 1px solid red; */
+    width: 70%;
+}
+
+.full-width-form-link{
+    width: 95.5%;
+}
+
+.half-width-form-link{
+    width: 45.4%;
+    margin-right: 1%;
+    display: inline-block;
+}
+
+.contact-button{
+    width: 98.5%;
+    background-color: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    border-radius: 3px;
+}
+
+.contact-formatting{
+    font-size: 14px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.error{
+    background-color: red;
+    color: white;
+}
+
+.contact-error-msg{
+    
+    margin-bottom: 10px;
+    width: 45.9%;
+    padding: 5px;
+}
