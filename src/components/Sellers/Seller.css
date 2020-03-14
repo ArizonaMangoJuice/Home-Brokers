@@ -1,0 +1,11 @@
+.block{
+    display: block;
+}
+
+.seller-title {
+    font-size: 45px;
+}
+
+.seller-quote{
+    margin-top: -8px;
+}

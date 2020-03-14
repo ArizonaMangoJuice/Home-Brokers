@@ -64,7 +64,7 @@ export default class Links extends React.Component{
                 </Link>
                 <Link onMouseEnter={() => this.darkScreen(4)} 
                     onMouseLeave={() => this.removeScreen()}
-                    to='/sellers'
+                    to='/seller'
                     className='a-format' href='#'>                   
                     <div className='picture-box p1 relative'>
                         <div className={this.state.four ? 'dark' : ''}></div>
