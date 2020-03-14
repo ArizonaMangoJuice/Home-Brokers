@@ -19,7 +19,7 @@ export default class ListWithUs extends React.Component{
             <div>
                 <div className='mch-md relative list-with-us-img mch-md-img'>
                     <div className='dark-blue-glass'></div>
-                    <h1 className='title-page raised'>List With Us</h1>
+                    <h1 className='title-page raised long-title-phone'>List With Us</h1>
                 </div>                    
             
                 <div className='grid-container'>

@@ -8,7 +8,7 @@ export default class About extends React.Component{
             <div className='alternate-background'>
                 <div className='mch-md relative nora-img mch-md-img'>
                     <div className='dark-blue-glass'></div>
-                    <h1 className='title-page raised'>About Noraceli</h1>
+                    <h1 className='title-page raised long-title-phone'>About Noraceli</h1>
                 </div>  
 
                 <div className='container-b-info'>

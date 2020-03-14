@@ -58,6 +58,12 @@
     .long-title-phone{
         font-size: 56px;
     }
+
+    .about-image {
+        margin-top: 0;
+        width: 320px;
+        border-radius: 10px;
+    }
 }
 
 @media screen and (max-width: 767px) {
