@@ -31,7 +31,7 @@ export default function Header () {
                     <Link to='/contact'>
                         Contact
                     </Link>
-                    <Link to='/contact'>
+                    <Link to='/about'>
                         About
                     </Link>
                      

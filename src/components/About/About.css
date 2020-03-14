@@ -1,0 +1,14 @@
+.nora-img{
+    background-image: url('../../images/about.jpg');
+}
+
+.about-name{
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.about-image{
+    margin-top: 40%;
+    width: 320px;
+    border-radius: 10px;
+}
