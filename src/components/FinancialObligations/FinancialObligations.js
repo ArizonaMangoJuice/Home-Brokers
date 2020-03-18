@@ -9,7 +9,7 @@ export default class FinancialObligations extends React.Component{
             <div>
                 <div className='mch-md relative list-with-us-img mch-md-img'>
                     <div className='dark-blue-glass'></div>
-                    <h1 className='title-page raised'>Financial Obligations</h1>
+                    <h1 className='title-page raised long-words-size'>Financial Obligations</h1>
                 </div>  
                 <div className='grid-container'>
                     <div className='mch  relative '>
@@ -21,7 +21,7 @@ export default class FinancialObligations extends React.Component{
                                     <span className='no-margin'>Home</span>
                                 </Link>
                                 <i className="current-page fas fa-angle-double-right"></i>
-                                <span className='current-page'>Financial Obligations</span>
+                                <span className='current-page '>Financial Obligations</span>
                             </nav>
                             <div className='mch relative'>
                                 <div className='container-b-info-md' >
@@ -32,19 +32,19 @@ export default class FinancialObligations extends React.Component{
                                                 <p className='page-info-block nolm ipad-margin'>Once you have your financial ducks in a row, it’s time to start preparing for the house hunt. The first step is actually going to a bank and getting pre-approved for a home loan.</p>
                                                 <p className='page-info-block nolm ipad-margin'>Keep in mind that pre-approval and pre-qualification are two different things:</p>
 
-                                                <ul className='page-info-block nolm ipad-margin'>
-                                                    <li>Pre-Qualification: Only tells you how much you can afford for a home.</li>
-                                                    <li>Pre-Approval: Tells you how much the bank will guarantee to lend you for a home.</li>
+                                                <ul className='page-info-block-ul  ipad-margin'>
+                                                    <li className='page-info-block-li'>Pre-Qualification: Only tells you how much you can afford for a home.</li>
+                                                    <li className='page-info-block-li'>Pre-Approval: Tells you how much the bank will guarantee to lend you for a home.</li>
                                                 </ul>
                                                 
                                                 <p className='page-info-block nolm ipad-margin'>When you go to an open house with a pre-approval letter in hand, the seller knows that you are a serious buyer. Plus knowing exactly how much you are approved for can help you stay within your budget. When budgeting for your home purchase, don’t forget to include other costs that will arise like:</p>
 
-                                                <ul className='page-info-block nolm ipad-margin'>
-                                                    <li>Inspections</li>
-                                                    <li>Repairs</li>
-                                                    <li>Closing Costs</li>
-                                                    <li>Contingencies</li>
-                                                    <li>And Other Fees</li>
+                                                <ul className='page-info-block-ul  ipad-margin ul-mobile'>
+                                                    <li className='page-info-block-li'>Inspections</li>
+                                                    <li className='page-info-block-li'>Repairs</li>
+                                                    <li className='page-info-block-li'>Closing Costs</li>
+                                                    <li className='page-info-block-li'>Contingencies</li>
+                                                    <li className='page-info-block-li'>And Other Fees</li>
                                                 </ul>
 
                                                 

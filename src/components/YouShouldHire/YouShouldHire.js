@@ -9,7 +9,7 @@ export default class YouShouldHire extends React.Component{
             <div>
                 <div className='mch-md relative list-with-us-img mch-md-img'>
                     <div className='dark-blue-glass'></div>
-                    <h1 className='title-page raised'>Why You Should Hire A Real Estate Professional</h1>
+                    <h1 className='title-page raised long-words-size'>Why You Should Hire A Real Estate Professional</h1>
                 </div>  
                 <div className='grid-container'>
                     <div className='mch  relative '>

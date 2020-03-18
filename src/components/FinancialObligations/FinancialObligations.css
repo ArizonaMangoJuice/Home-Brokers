@@ -1,0 +1,28 @@
+.page-info-block-ul{
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0px 0 0 0px;
+    /* width: 100%; */
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.page-info-block-li{
+    text-align: start;
+    width: 80%;
+    margin: auto;
+}
+
+.long-words-size{
+    font-size: 90px;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .long-words-size{
+        font-size: 32px;
+        text-align: center;
+    }
+}
