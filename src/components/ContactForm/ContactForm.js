@@ -8,9 +8,6 @@ import Loading from '../Loading/Loading';
 let REACT_APP_SERVER_URL = process.env.REACT_APP_SERVER_URL
 
 
-console.log('this is the server ' + REACT_APP_SERVER_URL)
-
-
 const ContactTextArea = (props) => (
   <textarea className='contact-textarea' type="textarea" {...props}/>
 )
