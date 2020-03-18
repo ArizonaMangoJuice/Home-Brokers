@@ -17,6 +17,7 @@ import ListWithUs from './components/ListWithUs/ListWithUs'
 import Seller from './components/Sellers/Seller'
 import Contact from './components/Contact/Contact';
 import About from './components/About/About';
+import FinancialObligations from './components/FinancialObligations/FinancialObligations';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
       <Route exact path='/seller' component={Seller}/>
       <Route exact path='/contact' component={Contact}/>
       <Route exact path='/about' component={About}/>
+      <Route exact path='/financialObligation' component={FinancialObligations}/>
 
 
 

@@ -21,7 +21,7 @@ export default class ImageLink extends React.Component{
         return (
             <Link onMouseEnter={() => this.darkScreen()} 
                     onMouseLeave={() => this.darkScreen()} 
-                    to='/buyers'
+                    to={this.props.linkName}
                     className='a-format' href='#'>                   
                     <div className='small-picture-link relative'>
                         <div className={this.state.hovered ? 'dark' : ''}></div>

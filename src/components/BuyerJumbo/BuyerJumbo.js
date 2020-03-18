@@ -44,7 +44,7 @@ export default function BuyerJumbo(){
                                 <p className='page-info-block'>THIS DETAILED HOME BUYING GUIDE WILL ADDRESS A FEW OF THE KEY QUESTIONS THAT MOST BUYERS HAVE.</p>
                             </div>
                             <div className='page-info-long-info'>
-                                <ImageLink title="FINANCIAL OBLIGATIONS" imgLink='hugging.jpg'/>
+                                <ImageLink linkName='financialObligation' title="FINANCIAL OBLIGATIONS" imgLink='hugging.jpg'/>
                                 <ImageLink title="A ROAD MAP OF THE ENTIRE PROCESS" imgLink='denver.jpg'/>
                                 <ImageLink title="WHY YOU SHOULD HIRE A REAL ESTATE PROFESSIONAL" imgLink='family.jpg'/>
                             </div>
