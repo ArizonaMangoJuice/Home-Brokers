@@ -4,6 +4,12 @@ import './ContactForm.css'
 import axios from 'axios'
 
 
+let REACT_APP_SERVER_URL = process.env.REACT_APP_SERVER_URL
+
+
+console.log('this is the server ' + REACT_APP_SERVER_URL)
+
+
 const ContactTextArea = (props) => (
   <textarea className='contact-textarea' type="textarea" {...props}/>
 )
@@ -49,7 +55,7 @@ export default class ContactForm extends React.Component{
     //     "Access-Control-Allow-Origin": "*",
     // },
     // })
-    axios.post('https://noraceli-backend.herokuapp.com/api/mail', data)
+    axios.post(REACT_APP_SERVER_URL, data)
     .then(res => {
       console.log(res)
     }).catch(e => {
