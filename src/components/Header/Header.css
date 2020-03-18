@@ -184,6 +184,28 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after
     background-color: rgba(0, 0, 0, 0.8);
 }
 
+.burger-links-nav{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.burger-links{
+    padding: 15px 5px;
+    margin: 15px 0;
+    text-decoration: none;
+    color: royalblue;
+    font-size: 18px;
+    text-align: center;
+    /* border: 1px solid royalblue; */
+}
+
+.burger-links:active{
+    color: white;
+    background-color: royalblue;
+}
+
 .hidden{
     display: none;
 }

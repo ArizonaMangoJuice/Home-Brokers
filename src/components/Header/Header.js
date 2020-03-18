@@ -22,15 +22,35 @@ export default class Header extends React.Component {
             <div className={this.state.menu ? 'mobile-menu' : 'hidden'} >
                 <div className='mobile-links'>
                     <nav className='burger-links-nav'>
-                        <Link className='burger-links' to='/contact'>
+                        <Link onClick={() => this.mobile()} className='burger-links' to='/contact'>
                             Houses
                         </Link>
                         
-                        <Link className='burger-links' to='/about'>
+                        <Link onClick={() => this.mobile()} className='burger-links' to='/about'>
                             About
                         </Link>
 
-                        <Link className='burger-links' to='/contact'>
+                        <Link onClick={() => this.mobile()} className='burger-links' to='/buyers'>
+                            Buyers
+                        </Link>
+
+                        <Link onClick={() => this.mobile()} className='burger-links' to='/listwithus'>
+                            List With Us
+                        </Link>
+                        
+                        <Link onClick={() => this.mobile()} className='burger-links' to='/seller'>
+                            Sellers
+                        </Link>
+
+                        <Link onClick={() => this.mobile()} className='burger-links' to='/financialObligation'>
+                            Financial Obligations
+                        </Link>
+
+                        <Link onClick={() => this.mobile()} className='burger-links' to='/youShouldHire'>
+                            Why You should Hire Us
+                        </Link>
+
+                        <Link onClick={() => this.mobile()} className='burger-links' to='/contact'>
                             Contact Us
                         </Link>
                     </nav>
