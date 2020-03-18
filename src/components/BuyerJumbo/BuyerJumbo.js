@@ -46,7 +46,7 @@ export default function BuyerJumbo(){
                             <div className='page-info-long-info'>
                                 <ImageLink linkName='financialObligation' title="FINANCIAL OBLIGATIONS" imgLink='hugging.jpg'/>
                                 <ImageLink title="A ROAD MAP OF THE ENTIRE PROCESS" imgLink='denver.jpg'/>
-                                <ImageLink title="WHY YOU SHOULD HIRE A REAL ESTATE PROFESSIONAL" imgLink='family.jpg'/>
+                                <ImageLink linkName='youShouldHire' title="WHY YOU SHOULD HIRE A REAL ESTATE PROFESSIONAL" imgLink='family.jpg'/>
                             </div>
                         </div>
                 </div>
