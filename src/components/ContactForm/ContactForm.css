@@ -44,6 +44,12 @@
     padding: 5px;
 }
 
+.success{
+    background-color: #d4edda;
+    color: #155724;
+    padding: 4px;
+}
+
 @media screen and (max-width: 767px) {
     .contact-form{
         margin-top: 15px;

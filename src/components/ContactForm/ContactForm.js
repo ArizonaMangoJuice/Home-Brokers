@@ -2,6 +2,7 @@ import React from 'react'
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import './ContactForm.css'
 import axios from 'axios'
+import Loading from '../Loading/Loading';
 
 
 let REACT_APP_SERVER_URL = process.env.REACT_APP_SERVER_URL
@@ -24,7 +25,8 @@ export default class ContactForm extends React.Component{
   constructor(props){
     super(props)
     this.state = {
-      sent: false
+      sent: false,
+      confirmation: undefined,
     }
   }
 
@@ -33,6 +35,10 @@ export default class ContactForm extends React.Component{
   }
 
   handleSubmit = (values) => {
+    this.setState({
+      sent: !this.state.sent,
+      confirmation: ''
+    })
     let email, firstname, lastname, phone, textarea = values;
     let data = {
       email: values.email,
@@ -42,22 +48,13 @@ export default class ContactForm extends React.Component{
       adittional: values.textarea
     }
 
-    // data = JSON.stringify(data);
-
-    console.log('this is data ' + data)
-
-    // axios.post({
-    //   method: 'post',
-    //   url:'http://localhost:8080/api/mail',
-    //   data: data,
-    //   headers: {
-    //     'content-type': 'application/json',
-    //     "Access-Control-Allow-Origin": "*",
-    // },
-    // })
     axios.post(REACT_APP_SERVER_URL, data)
     .then(res => {
-      console.log(res)
+      this.setState({
+        sent: !this.state.sent,
+        confirmation: 'Email has been Sent!'
+      })
+
     }).catch(e => {
       console.log(e)
     })
@@ -66,8 +63,13 @@ export default class ContactForm extends React.Component{
 
   render(){
     return (
-      <div>
-    <Formik
+    <div>
+    {
+      this.state.sent ? 
+      
+      <Loading /> : 
+
+      <Formik
       initialValues={{ email: '', firstname: '', lastname: '', phone: '', textarea: '' }}
       validate={values => {
         const errors = {};
@@ -90,6 +92,7 @@ export default class ContactForm extends React.Component{
     >
       {({ isSubmitting }) => (
         <Form className='contact-form'>
+          {this.state.confirmation ? <p className='success'>{this.state.confirmation}</p> : ''}
           <p>Required fields are marked *</p>
           <Field className='contact-formatting full-width-form-link' type="text" name="firstname" placeholder="First Name"/>
           <ErrorMessage name="firstname" component="div" />
@@ -107,6 +110,10 @@ export default class ContactForm extends React.Component{
         </Form>
       )}
     </Formik>
+    
+    }
+    
+    
   </div>
     )
   }
