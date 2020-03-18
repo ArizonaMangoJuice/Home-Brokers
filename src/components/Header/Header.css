@@ -145,12 +145,47 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: none;
+    background: none;
 }
 
 .burger-line{
     width: 20px;
     margin: 2px;
     border: 2px solid white;
+}
+
+@keyframes menu {
+    0% { width: 0%; }
+    100% { width: 100%; }
+}
+
+.mobile-menu{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    animation: menu .1s ease-in-out ;
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.mobile-links{
+    width: 60%;
+    height: 100vh;
+    background-color: white;
+}
+
+.mobile-hidden-button{
+    width: 40%;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.hidden{
+    display: none;
 }
 
 .phone-header-link{
@@ -173,7 +208,7 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after
         /* border: 1px solid red; */
         /* background-color: rgba(0, 0, 0, 0); */
         background-color: royalblue;
-        padding: 10px 0 10px 0;
+        padding: 0px 0 10px 0;
         position: fixed;
         top: 0;
         z-index: 999;
