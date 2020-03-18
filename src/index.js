@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import dotenv from 'dotenv';
+import ScrollToTop from 'react-router-scroll-top'
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
@@ -13,7 +13,9 @@ import {
 
 ReactDOM.render(
     <Router>
-        <App />
+        <ScrollToTop>
+            <App />
+        </ScrollToTop>
     </Router>
 , document.getElementById('root'));
 
