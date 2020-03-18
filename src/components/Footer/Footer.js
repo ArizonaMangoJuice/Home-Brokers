@@ -1,5 +1,7 @@
 import React from 'react'
-
+import {
+    Link
+} from 'react-router-dom'
 import './Footer.css'
 
 export default function Footer(){
@@ -44,13 +46,13 @@ export default function Footer(){
                     </div>
                 </nav>
                 <div className='main-links'>
-                        <a href='#'>Home</a>
-                        <a href='#'>About Noraceli</a>
-                        <a href='#'>Sellers</a>
-                        <a href='#'>Home Valuation</a>
-                        <a href='#'>Buyers</a>
-                        <a href='#'>List With Us</a>
-                        <a href='#'>Contact</a>
+                        <Link to='/' href='#'>Home</Link>
+                        <Link to='/about' href='#'>About Noraceli</Link>
+                        <Link to='/seller' href='#'>Sellers</Link>
+                        <Link to='/homeValuation' href='#'>Home Valuation</Link>
+                        <Link to='/buyers' href='#'>Buyers</Link>
+                        <Link to='/listWithUs' href='#'>List With Us</Link>
+                        <Link to='/contact' href='#'>Contact</Link>
                 </div>
                 <div className='copyright'>
                     <p>© 2020. Noraceli Vizcaino. All rights reserved. Sitemap | Real Estate Website Design by <a href='https://github.com/ArizonaMangoJuice'>AMJ</a></p>

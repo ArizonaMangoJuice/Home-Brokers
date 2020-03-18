@@ -25,7 +25,7 @@ export default class SmallImageLink extends React.Component{
                     className='a-format' href='#'>                   
                     <div className='smaller-picture-link relative'>
                         <div className={this.state.hovered ? 'dark' : ''}></div>
-                        <img className={this.state.hovered ? 'smaller-link-picture scale' : 'smaller-link-picture'} src={require('../../images/' + this.props.imgLink)} />
+                        <img alt='real estate' className={this.state.hovered ? 'smaller-link-picture scale' : 'smaller-link-picture'} src={require('../../images/' + this.props.imgLink)} />
                         <p className='smaller-link-title'>{this.props.title}</p>
                     </div>
             </Link>

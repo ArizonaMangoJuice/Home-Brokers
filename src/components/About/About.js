@@ -34,7 +34,7 @@ export default class About extends React.Component{
 
                                                 {/* <ContactForm /> */}
                                             </div>
-                                            <img className='about-image' src={require('../../images/nora-cropped.jpg')} />
+                                            <img alt='noraceli vizcaino' className='about-image' src={require('../../images/nora-cropped.jpg')} />
                                             
                                         </div>
                                 </div>

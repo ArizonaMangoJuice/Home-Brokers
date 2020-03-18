@@ -43,10 +43,10 @@ export default function Header () {
                         <div className='burger-line'></div>
                     </div>
                     <div className='phone-phone'>
-                        <a className="phone-header-link" href="tel:303-350-6089"><i class="fas fa-phone-square-alt "></i></a>
+                        <a className="phone-header-link" href="tel:303-350-6089"><i className="fas fa-phone-square-alt "></i></a>
                     </div>
                     <div className='phone-email'>
-                        <a class="phone-email-link" href="mailto:hello@nv.com"><i class="fas fa-envelope"></i></a>
+                        <a className="phone-email-link" href="mailto:hello@nv.com"><i className="fas fa-envelope"></i></a>
                     </div>
                 </nav>
 

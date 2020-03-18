@@ -49,7 +49,7 @@ export default class ContactForm extends React.Component{
     //     "Access-Control-Allow-Origin": "*",
     // },
     // })
-    axios.post('http://localhost:8080/api/mail', data)
+    axios.post('https://noraceli-backend.herokuapp.com/api/mail', data)
     .then(res => {
       console.log(res)
     }).catch(e => {

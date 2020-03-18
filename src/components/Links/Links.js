@@ -14,10 +14,10 @@ export default class Links extends React.Component{
     }
 
     darkScreen(e) {
-        if (e == 1) this.setState({one: true})
-        if (e == 2) this.setState({two: true})
-        if (e == 3) this.setState({three: true})
-        if (e == 4) this.setState({four: true})
+        if (e === 1) this.setState({one: true})
+        if (e === 2) this.setState({two: true})
+        if (e === 3) this.setState({three: true})
+        if (e === 4) this.setState({four: true})
     } 
 
     removeScreen(){
