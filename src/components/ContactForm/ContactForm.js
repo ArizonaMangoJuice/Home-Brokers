@@ -1,6 +1,8 @@
 import React from 'react'
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import './ContactForm.css'
+import axios from 'axios'
+
 
 const ContactTextArea = (props) => (
   <textarea className='contact-textarea' type="textarea" {...props}/>
@@ -12,8 +14,53 @@ const ContactErrorMessage = (props) => (
   </div>
 )
 
-const ContactForm = () => (
-  <div>
+export default class ContactForm extends React.Component{
+  constructor(props){
+    super(props)
+    this.state = {
+      sent: false
+    }
+  }
+
+  preventDefault = e => {
+    e.preventDefault();
+  }
+
+  handleSubmit = (values) => {
+    let email, firstname, lastname, phone, textarea = values;
+    let data = {
+      email: values.email,
+      firstName: values.firstname,
+      lastName: values.lastname,
+      phoneNumber: values.phone,
+      adittional: values.textarea
+    }
+
+    // data = JSON.stringify(data);
+
+    console.log('this is data ' + data)
+
+    // axios.post({
+    //   method: 'post',
+    //   url:'http://localhost:8080/api/mail',
+    //   data: data,
+    //   headers: {
+    //     'content-type': 'application/json',
+    //     "Access-Control-Allow-Origin": "*",
+    // },
+    // })
+    axios.post('http://localhost:8080/api/mail', data)
+    .then(res => {
+      console.log(res)
+    }).catch(e => {
+      console.log(e)
+    })
+
+  }
+
+  render(){
+    return (
+      <div>
     <Formik
       initialValues={{ email: '', firstname: '', lastname: '', phone: '', textarea: '' }}
       validate={values => {
@@ -28,10 +75,11 @@ const ContactForm = () => (
         return errors;
       }}
       onSubmit={(values, { setSubmitting }) => {
-        setTimeout(() => {
-          alert(JSON.stringify(values, null, 2));
-          setSubmitting(false);
-        }, 400);
+        setSubmitting(false);
+        // this.preventDefault()
+
+        // console.log(values)
+        this.handleSubmit(values)
       }}
     >
       {({ isSubmitting }) => (
@@ -54,6 +102,6 @@ const ContactForm = () => (
       )}
     </Formik>
   </div>
-);
-
-export default ContactForm;
+    )
+  }
+}
